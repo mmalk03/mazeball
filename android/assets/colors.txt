@@ -1,0 +1,2 @@
+dark-red: 942b2b
+light-red: b0171f

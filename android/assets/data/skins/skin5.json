@@ -1,0 +1,71 @@
+{
+  com.badlogic.gdx.graphics.g2d.BitmapFont: {
+    normaltext: {
+      file: fonts/comic_sans_50.fnt
+    },
+    titletext: {
+      file: fonts/comic_sans_100.fnt
+    },
+  },
+  com.badlogic.gdx.graphics.Color: {
+    red: {a: 1, b: 0, g: 0, r: 1},
+    green: {a: 1, b: 0, g: 1, r: 0},
+    blue: {a: 1, b: 1, g: 0, r: 0},
+    white: {hex: "FFFFFF"},
+    black: {hex: "000000"},
+    light-red: {hex: "b0171f"},
+    dark-red: {hex: "942b2b"}
+  },
+  com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle: {
+    default: {
+      font: normaltext,
+      fontColor: white
+    },
+    normal-text: {
+      font: normaltext,
+      fontColor: white
+    },
+    title-text: {
+      font: titletext,
+      fontColor: light-red
+    },
+  },
+  com.badlogic.gdx.scenes.scene2d.ui.TextButton$TextButtonStyle: {
+    default: {
+      up: btn_background_light,
+      down: btn_background_dark,
+      font: normaltext,
+      fontColor: white
+    },
+  },
+  com.badlogic.gdx.scenes.scene2d.ui.ImageButton$ImageButtonStyle: {
+    logo: {
+      imageUp: logo,
+      imageDown: logo
+    },
+    list: {
+      imageUp: btn_list_light,
+      imageDown: btn_list_dark
+    },
+    play: {
+      imageUp: btn_play_light,
+      imageDown: btn_play_dark
+    },
+    exit: {
+      imageUp: btn_exit_light,
+      imageDown: btn_exit_dark
+    },
+    back: {
+      imageUp: btn_back_light,
+      imageDown: btn_back_dark
+    },
+    solve: {
+      imageUp: btn_solve_light,
+      imageDown: btn_solve_dark
+    },
+    replay: {
+      imageUp: btn_replay_light,
+      imageDown: btn_replay_dark
+    }
+  }
+}

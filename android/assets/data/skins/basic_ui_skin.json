@@ -1,0 +1,106 @@
+{
+  com.badlogic.gdx.graphics.g2d.BitmapFont: {
+    normaltext: {
+      file: comic_sans_25.fnt
+    },
+    titletext: {
+      file: comic_sans_50.fnt
+    },
+  },
+  com.badlogic.gdx.graphics.Color: {
+    red: {a: 1, b: 0, g: 0, r: 1},
+    green: {a: 1, b: 0, g: 1, r: 0},
+    blue: {a: 1, b: 1, g: 0, r: 0},
+    white: {hex: "FFFFFF"},
+    black: {hex: "000000"},
+    light-red: {hex: "b0171f"},
+    dark-red: {hex: "942b2b"}
+  },
+  com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle: {
+    default: {
+      font: normaltext,
+      fontColor: white
+    },
+    normal-text: {
+      font: normaltext,
+      fontColor: white
+    },
+    title-text: {
+      font: titletext,
+      fontColor: light-red
+    },
+  },
+  com.badlogic.gdx.scenes.scene2d.ui.Button$ButtonStyle: {
+    default: {
+      up: btn_up,
+      down: btn_down,
+      checked: btn_down,
+      disabled: btn_up
+    },
+    transparent: {},
+  },
+  com.badlogic.gdx.scenes.scene2d.ui.TextButton$TextButtonStyle: {
+    default: {
+      up: background_red_up,
+      down: background_red_down,
+      font: normaltext,
+      fontColor: white
+    },
+  },
+  com.badlogic.gdx.scenes.scene2d.ui.ImageButton$ImageButtonStyle: {
+    default: {
+      up: btn_up,
+      down: btn_down,
+      checked: btn_down,
+      disabled: btn_up
+    },
+    settings: {
+      up: background_red_up,
+      down: background_red_down,
+      checked: background_red_down,
+      imageUp: btn_settings,
+      imageDown: btn_settings,
+      imageChecked: btn_settings
+    },
+    about: {
+      up: background_red_up,
+      down: background_red_down,
+      checked: background_red_down,
+      imageUp: btn_about,
+      imageDown: btn_about,
+      imageChecked: btn_about
+    },
+    shop: {
+      up: background_red_up,
+      down: background_red_down,
+      checked: background_red_down,
+      imageUp: btn_shop,
+      imageDown: btn_shop,
+      imageChecked: btn_shop
+    },
+    bullet: {
+      up: background_red_up,
+      down: background_red_down,
+      checked: background_red_down,
+      imageUp: btn_bullet,
+      imageDown: btn_bullet,
+      imageChecked: btn_bullet
+    },
+    infinity: {
+      up: background_red_up,
+      down: background_red_down,
+      checked: background_red_down,
+      imageUp: btn_infinity,
+      imageDown: btn_infinity,
+      imageChecked: btn_infinity
+    },
+    solve: {
+      imageUp: btn_solve_up,
+      imageDown: btn_solve_down
+    },
+    replay: {
+      imageUp: btn_replay_light,
+      imageDown: btn_replay_dark
+    }
+  }
+}
